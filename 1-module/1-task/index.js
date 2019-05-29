@@ -5,8 +5,10 @@
  * @returns {number}
  */
 
-var m = prompt('Ведите m', '' );
-var n = prompt ('Введите n', '');
+'use strict';
+
+let m = prompt('Ведите m', '' );
+let n = prompt ('Введите n', '');
 
 function pow(m, n){
   if (n == 1)
@@ -16,4 +18,4 @@ function pow(m, n){
   }
 }
 
-alert( pow (m, n) );
+pow (m, n);
