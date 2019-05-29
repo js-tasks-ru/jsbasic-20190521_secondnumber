@@ -11,13 +11,13 @@ function print (text) {
  * Эту функцию нужно поменять так,
  * чтобы функция sayHello работала корректно
  */
+
 function isValid (userName) {
-    if ( (userName.length >= 4) && (userName !== '') && userName.indexOf(' ') === -1 ) {
+    if ( (userName != null) && (userName.length >= 4) && userName.indexOf(' ') === -1 ) {
         return true;
     } else {
         return false;
     }
-
 }
 
 function sayHello () {

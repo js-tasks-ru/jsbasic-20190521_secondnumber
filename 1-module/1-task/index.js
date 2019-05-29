@@ -18,4 +18,3 @@ function pow(m, n){
   }
 }
 
-pow (m, n);
