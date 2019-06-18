@@ -6,6 +6,7 @@
  * @returns {{min:number, max:number}}  объект
  */
 
+
 let inputData = '25,-1,-234,4,  1000';
 
 function compareNumeric(a, b) {
